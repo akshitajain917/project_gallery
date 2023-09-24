@@ -21,5 +21,6 @@ from api.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',ProjectDetailsView.as_view(),name="project_details")
+    path('',ProjectDetailsView.as_view(),name="project_details"),
+    path('projects/', FilteredDetailsView.as_view(),name="filtered_projects")
 ]

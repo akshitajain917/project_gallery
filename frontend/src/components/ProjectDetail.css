@@ -46,3 +46,29 @@
     border: 1px solid gray; /* You can adjust the border color and thickness */
   }
   
+  .search-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+    
+  /* Style the search button */
+  .search-button {
+    background-color: #007bff; /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the search button */
+  .search-button:hover {
+    background-color: #0056b3; /* Change to a darker shade for hover effect */
+  }
