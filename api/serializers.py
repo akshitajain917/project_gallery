@@ -6,8 +6,6 @@ class TechincalSkillsetSerializer(serializers.ModelSerializer):
       model = TechincalSkillset
       fields = ("frontend","backend","databases","infrastructure")
 
-
-      
 class ProjectSerializer(serializers.ModelSerializer):
    technical_skillset = TechincalSkillsetSerializer()
    class Meta:

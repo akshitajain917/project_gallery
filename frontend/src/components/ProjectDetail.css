@@ -1,15 +1,14 @@
-/* src/ProjectDetail.css */
 .project-detail-panel {
     position: fixed;
     top: 0;
-    right: 0px;  /* Initially, the panel is hidden to the right */
+    right: 0px;  /* The panel will be shown in right */
     width: 400px; /* Adjust the width as needed */
     height: 100%;
     background-color: white;
     box-shadow: -2px 0 4px rgba(0, 0, 0, 0.2);
     transition: right 0.3s ease-in-out;
     overflow-y: auto; /* Allow scrolling if the content exceeds the panel height */
-    z-index: 1000; /* Ensure the panel is above other content */
+    z-index: 1000; /* Ensure the panel is above content */
   }
   
   .project-detail-content {
@@ -43,23 +42,22 @@
   }
 
   .gray-line {
-    border: 1px solid gray; /* You can adjust the border color and thickness */
+    border: 1px solid gray; 
   }
   
   .search-container {
     display: flex;
     align-items: center;
-    max-width: 400px; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 400px;
+    margin: 0 auto;
     padding: 10px;
     background-color: #f0f0f0;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
     
-  /* Style the search button */
   .search-button {
-    background-color: #007bff; /* Change to your desired button color */
+    background-color: #007bff; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -68,7 +66,6 @@
     cursor: pointer;
   }
   
-  /* Hover effect for the search button */
   .search-button:hover {
-    background-color: #0056b3; /* Change to a darker shade for hover effect */
+    background-color: #0056b3; 
   }
